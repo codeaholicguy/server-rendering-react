@@ -1,0 +1,24 @@
+{
+  "name": "server-rendering-react",
+  "version": "1.0.0",
+  "description": "React application server side rendering",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-react": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "express": "^4.14.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.3"
+  }
+}
